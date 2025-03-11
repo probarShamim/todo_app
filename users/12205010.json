@@ -1,0 +1,22 @@
+{
+  "name": "Iqbal",
+  "userId": "12205010",
+  "password": "Iqbal",
+  "gmail": "Iqbal@gmail.com",
+  "tasks": {
+    "2025-03-09": [
+      {
+        "id": 1741507497569,
+        "text": "Lab Work",
+        "completed": true,
+        "date": "2025-03-09"
+      },
+      {
+        "id": 1741507524784,
+        "text": "Problem solving",
+        "completed": true,
+        "date": "2025-03-09"
+      }
+    ]
+  }
+}

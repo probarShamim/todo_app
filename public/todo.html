@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do App - Today</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color: #082567;">
+  <div class="container todoContainer">
+    <div class="card">
+      <h2 style="color: white;">Your To-Do List for Today</h2>
+      <form id="addTaskForm">
+        <input type="text" id="taskInput" placeholder="Enter new task" required>
+        <button type="submit">Add Task</button>
+      </form>
+      <table id="taskTable">
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="taskBody">
+          <!-- Tasks will be injected here -->
+        </tbody>
+      </table>
+      <div class="buttons">
+        <button id="logoutBtn">Logout</button>
+        <button onclick="window.location.href='analysis.html'">7-Day Analysis</button>
+      </div>
+    </div>
+  </div>
+  <script src="js/todo.js"></script>
+</body>
+</html>

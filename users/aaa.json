@@ -1,0 +1,28 @@
+{
+  "name": "aaa",
+  "userId": "aaa",
+  "password": "aaa",
+  "gmail": "www@gmail.com",
+  "tasks": {
+    "2025-03-10": [
+      {
+        "id": 1741595091357,
+        "text": "Lab Work",
+        "completed": true,
+        "date": "2025-03-10"
+      },
+      {
+        "id": 1741595096610,
+        "text": "OOP",
+        "completed": false,
+        "date": "2025-03-10"
+      },
+      {
+        "id": 1741595108347,
+        "text": "Programming",
+        "completed": true,
+        "date": "2025-03-10"
+      }
+    ]
+  }
+}
